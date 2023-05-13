@@ -17,6 +17,7 @@ final class TicTacToeTests: XCTestCase {
             // Act
             
             // Assert
+        XCTAssertEqual(ticModel.grid.count, 9)
         }
 
 }
