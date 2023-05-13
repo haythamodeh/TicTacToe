@@ -17,6 +17,7 @@
 		726D5C972A104DEF00B4D622 /* TicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C962A104DEF00B4D622 /* TicModel.swift */; };
 		726D5C9B2A10560300B4D622 /* TicViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C9A2A10560300B4D622 /* TicViewModelTests.swift */; };
 		726D5C9E2A10563500B4D622 /* TicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C9D2A10563500B4D622 /* TicViewModel.swift */; };
+		726D5CA12A1057E100B4D622 /* TicTacToeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5CA02A1057E100B4D622 /* TicTacToeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		726D5C962A104DEF00B4D622 /* TicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicModel.swift; sourceTree = "<group>"; };
 		726D5C9A2A10560300B4D622 /* TicViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicViewModelTests.swift; sourceTree = "<group>"; };
 		726D5C9D2A10563500B4D622 /* TicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicViewModel.swift; sourceTree = "<group>"; };
+		726D5CA02A1057E100B4D622 /* TicTacToeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 		726D5C6A2A104D2500B4D622 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				726D5C9F2A1057CF00B4D622 /* Views */,
 				726D5C9C2A10561F00B4D622 /* Viewmodel */,
 				726D5C952A104DC800B4D622 /* Model */,
 				726D5C6B2A104D2500B4D622 /* TicTacToeApp.swift */,
@@ -166,6 +169,14 @@
 				726D5C9D2A10563500B4D622 /* TicViewModel.swift */,
 			);
 			path = Viewmodel;
+			sourceTree = "<group>";
+		};
+		726D5C9F2A1057CF00B4D622 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				726D5CA02A1057E100B4D622 /* TicTacToeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			files = (
 				726D5C6E2A104D2500B4D622 /* ContentView.swift in Sources */,
 				726D5C9E2A10563500B4D622 /* TicViewModel.swift in Sources */,
+				726D5CA12A1057E100B4D622 /* TicTacToeView.swift in Sources */,
 				726D5C6C2A104D2500B4D622 /* TicTacToeApp.swift in Sources */,
 				726D5C972A104DEF00B4D622 /* TicModel.swift in Sources */,
 			);
