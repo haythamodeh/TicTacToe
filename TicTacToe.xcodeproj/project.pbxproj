@@ -15,6 +15,8 @@
 		726D5C872A104D2700B4D622 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C862A104D2700B4D622 /* TicTacToeUITests.swift */; };
 		726D5C892A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C882A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift */; };
 		726D5C972A104DEF00B4D622 /* TicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C962A104DEF00B4D622 /* TicModel.swift */; };
+		726D5C9B2A10560300B4D622 /* TicViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C9A2A10560300B4D622 /* TicViewModelTests.swift */; };
+		726D5C9E2A10563500B4D622 /* TicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C9D2A10563500B4D622 /* TicViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		726D5C862A104D2700B4D622 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		726D5C882A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		726D5C962A104DEF00B4D622 /* TicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicModel.swift; sourceTree = "<group>"; };
+		726D5C9A2A10560300B4D622 /* TicViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicViewModelTests.swift; sourceTree = "<group>"; };
+		726D5C9D2A10563500B4D622 /* TicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 		726D5C6A2A104D2500B4D622 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				726D5C9C2A10561F00B4D622 /* Viewmodel */,
 				726D5C952A104DC800B4D622 /* Model */,
 				726D5C6B2A104D2500B4D622 /* TicTacToeApp.swift */,
 				726D5C6D2A104D2500B4D622 /* ContentView.swift */,
@@ -116,7 +121,8 @@
 		726D5C7B2A104D2700B4D622 /* TicTacToeTests */ = {
 			isa = PBXGroup;
 			children = (
-				726D5C7C2A104D2700B4D622 /* TicTacToeTests.swift */,
+				726D5C992A1055DD00B4D622 /* ViewModelTests */,
+				726D5C982A1055CF00B4D622 /* ModelTests */,
 			);
 			path = TicTacToeTests;
 			sourceTree = "<group>";
@@ -136,6 +142,30 @@
 				726D5C962A104DEF00B4D622 /* TicModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		726D5C982A1055CF00B4D622 /* ModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				726D5C7C2A104D2700B4D622 /* TicTacToeTests.swift */,
+			);
+			path = ModelTests;
+			sourceTree = "<group>";
+		};
+		726D5C992A1055DD00B4D622 /* ViewModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				726D5C9A2A10560300B4D622 /* TicViewModelTests.swift */,
+			);
+			path = ViewModelTests;
+			sourceTree = "<group>";
+		};
+		726D5C9C2A10561F00B4D622 /* Viewmodel */ = {
+			isa = PBXGroup;
+			children = (
+				726D5C9D2A10563500B4D622 /* TicViewModel.swift */,
+			);
+			path = Viewmodel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				726D5C6E2A104D2500B4D622 /* ContentView.swift in Sources */,
+				726D5C9E2A10563500B4D622 /* TicViewModel.swift in Sources */,
 				726D5C6C2A104D2500B4D622 /* TicTacToeApp.swift in Sources */,
 				726D5C972A104DEF00B4D622 /* TicModel.swift in Sources */,
 			);
@@ -279,6 +310,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				726D5C7D2A104D2700B4D622 /* TicTacToeTests.swift in Sources */,
+				726D5C9B2A10560300B4D622 /* TicViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
