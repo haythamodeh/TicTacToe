@@ -14,6 +14,7 @@
 		726D5C7D2A104D2700B4D622 /* TicTacToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C7C2A104D2700B4D622 /* TicTacToeTests.swift */; };
 		726D5C872A104D2700B4D622 /* TicTacToeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C862A104D2700B4D622 /* TicTacToeUITests.swift */; };
 		726D5C892A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C882A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift */; };
+		726D5C972A104DEF00B4D622 /* TicModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 726D5C962A104DEF00B4D622 /* TicModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		726D5C822A104D2700B4D622 /* TicTacToeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicTacToeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		726D5C862A104D2700B4D622 /* TicTacToeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITests.swift; sourceTree = "<group>"; };
 		726D5C882A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		726D5C962A104DEF00B4D622 /* TicModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		726D5C6A2A104D2500B4D622 /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				726D5C952A104DC800B4D622 /* Model */,
 				726D5C6B2A104D2500B4D622 /* TicTacToeApp.swift */,
 				726D5C6D2A104D2500B4D622 /* ContentView.swift */,
 				726D5C6F2A104D2700B4D622 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				726D5C882A104D2700B4D622 /* TicTacToeUITestsLaunchTests.swift */,
 			);
 			path = TicTacToeUITests;
+			sourceTree = "<group>";
+		};
+		726D5C952A104DC800B4D622 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				726D5C962A104DEF00B4D622 /* TicModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				726D5C6E2A104D2500B4D622 /* ContentView.swift in Sources */,
 				726D5C6C2A104D2500B4D622 /* TicTacToeApp.swift in Sources */,
+				726D5C972A104DEF00B4D622 /* TicModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
