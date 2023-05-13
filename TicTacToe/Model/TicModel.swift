@@ -15,17 +15,17 @@ enum cell: String {
 
 struct TicModel {
     private var _grid: [cell]
-    
+
     init() {
         _grid = []
-        for _ in 0..<9 {
+        for _ in 0 ..< 9 {
             _grid.append(cell.x)
         }
     }
-    
-    var grid: [cell] {
-        get { _grid }
+
+    var grid: [cell] { _grid }
+
+    mutating func setCell(n: Int, c: cell) {
+        _grid[n] = c
     }
-
 }
-
