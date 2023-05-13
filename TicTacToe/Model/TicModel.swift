@@ -26,6 +26,9 @@ struct TicModel {
     var grid: [cell] { _grid }
 
     mutating func setCell(n: Int, c: cell) {
+        guard _grid.indices.contains(n) else {
+            return
+        }
         _grid[n] = c
     }
 }
