@@ -17,4 +17,14 @@ class TicViewModel: ObservableObject {
     var grid: [Cell] { ticModel.grid }
 
     var winner: Winner { ticModel.winner }
+
+    var isGameOver: Bool {
+        ticModel.isGridFull || (ticModel.winner != .none)
+    }
+
+    func setCell(index: Int, cellValue: Cell) {
+        ticModel.setCell(n: index, c: cellValue)
+
+        _ = ticModel.updateGameStatus()
+    }
 }
