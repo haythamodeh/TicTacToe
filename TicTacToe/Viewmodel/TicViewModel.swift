@@ -15,4 +15,6 @@ class TicViewModel: ObservableObject {
     }
 
     var grid: [Cell] { ticModel.grid }
+
+    var winner: Winner { ticModel.winner }
 }
