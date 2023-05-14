@@ -26,6 +26,6 @@ class TicViewModelTests: XCTestCase {
         // Act
         
         // Assert
-        XCTAssertEqual((ticViewModel.grid.filter { $0 == cell.x }.count), 9)
+        XCTAssertEqual((ticViewModel.grid.filter { $0 == Cell.x }.count), 9)
     }
 }
